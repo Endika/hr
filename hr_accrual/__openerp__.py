@@ -1,8 +1,10 @@
-# -*- coding:utf-8 -*-
+# -*- coding: utf-8 -*-
+# Python source code encoding : https://www.python.org/dev/peps/pep-0263/
+##############################################################################
 #
-#
+#    OpenERP, Odoo Source Management Solution
 #    Copyright (C) 2013 Michael Telahun Makonnen <mmakonnen@gmail.com>.
-#    All Rights Reserved.
+#                       Endika Iglesias <endika2@gmail.com>
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published
@@ -17,22 +19,15 @@
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
-#
+##############################################################################
 
 {
     'name': 'Accrual',
     'version': '1.0',
     'category': 'Generic Modules/Human Resources',
-    'description': """
-Accruals
-========
-
-An Accrual is any benefit (usually time) that accrues on behalf of an employee
-over an extended period of time. This can be vacation days, sick days, or a
-simple time bank. The actual policy and mechanics of accrual should be handled
-by other modules. This module only provides the basic framework for recording
-the data.""",
-    'author': "Michael Telahun Makonnen <mmakonnen@gmail.com>,Odoo Community Association (OCA)",
+    'author': "Michael Telahun Makonnen <mmakonnen@gmail.com>, "
+              "Endika Iglesias <endika2@gmail.com>, "
+              "Odoo Community Association (OCA)",
     'website': 'http://miketelahun.wordpress.com',
     'license': 'AGPL-3',
     'depends': [
@@ -42,9 +37,7 @@ the data.""",
     ],
     'data': [
         'security/ir.model.access.csv',
-        'hr_accrual_view.xml',
-    ],
-    'test': [
+        'views/hr_accrual_view.xml',
     ],
     'installable': False,
 }
