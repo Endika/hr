@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
-#    This module copyright (C) 2010 - 2014 Savoir-faire Linux
+#    This module copyright (C) 2013 Savoir-faire Linux
 #    (<http://www.savoirfairelinux.com>).
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -21,34 +21,18 @@
 ##############################################################################
 
 {
-    'name': 'Employee First Name, Last Name',
-    'version': '0.1',
+    'name': 'Employee Phone Extension',
+    'version': '1.0',
+    'category': 'Human Resources',
     'author': "Savoir-faire Linux,Odoo Community Association (OCA)",
-    'maintainer': 'Savoir-faire Linux',
     'website': 'http://www.savoirfairelinux.com',
     'license': 'AGPL-3',
-    'category': 'Human Resources',
-    'summary': 'Adds First Name to Employee',
-    'description': """
-Employee First Name, Last Name
-==============================
-
-This module allows you to add firstname and lastname in employee form,
-and concatenate both in name field.
-
-Contributors
-------------
-* El Hadji Dem (elhadji.dem@savoirfairelinux.com)
-* Sandy Carter (sandy.carter@savoirfairelinux.com)
-""",
-    'depends': [
-        'hr',
-    ],
-    'external_dependencies': {},
+    'depends': ['hr', ],
     'data': [
-        'hr_view.xml',
+        'views/hr_employee_view.xml',
     ],
     'demo': [],
     'test': [],
-    'installable': False,
+    'installable': True,
+    'auto_install': False,
 }

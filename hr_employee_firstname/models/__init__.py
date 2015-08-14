@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
-#    This module copyright (C) 2013 Savoir-faire Linux
+#    This module copyright (C) 2010 - 2014 Savoir-faire Linux
 #    (<http://www.savoirfairelinux.com>).
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -20,34 +20,4 @@
 #
 ##############################################################################
 
-{
-    'name': 'Employee Phone Extension',
-    'version': '1.0',
-    'category': 'Human Resources',
-    'description': """
-
-Employee Phone Extension
-========================
-This module adds the following to employees :
-* internal_number
-* short_number
-
-
-Contributors
-------------
-* Sandy Carter (sandy.carter@savoirfairelinux.com)
-* El Hadji Dem (elhadji.dem@savoirfairelinux.com)
-    """,
-    'author': "Savoir-faire Linux,Odoo Community Association (OCA)",
-    'website': 'http://www.savoirfairelinux.com',
-    'license': 'AGPL-3',
-    'depends': ['hr', ],
-    'data': [
-        'hr_view.xml',
-    ],
-    'demo': [],
-    'test': [],
-    'installable': False,
-    'auto_install': False,
-    'images': [],
-}
+from . import hr_employee
