@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hr (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-18 13:10+0000\n"
-"PO-Revision-Date: 2015-08-01 16:08+0000\n"
+"POT-Creation-Date: 2015-09-23 16:39+0000\n"
+"PO-Revision-Date: 2015-09-24 11:46+0000\n"
 "Last-Translator: Matjaž Mozetič <m.mozetic@matmoz.si>\n"
 "Language-Team: Slovenian (http://www.transifex.com/oca/OCA-hr-8-0/language/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -32,6 +32,11 @@ msgstr "Amharski / አምሃርኛ"
 #: selection:hr.language,name:0
 msgid "Arabic / الْعَرَبيّة"
 msgstr "Arabski / الْعَرَبيّة"
+
+#. module: hr_language
+#: selection:hr.language,name:0
+msgid "Basque / Euskara"
+msgstr "Baskovščina / Euskara"
 
 #. module: hr_language
 #: selection:hr.language,name:0
